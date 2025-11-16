@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Doubts - CampusConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                CampusConnect
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="mentors.html">Find Mentors</a>
+                <a href="ask.html">Ask Doubts</a>
+            </div>
+            <div class="auth-buttons">
+                <a href="dashboard.html" class="btn btn-outline">Dashboard</a>
+                <a href="#" class="btn btn-primary" id="logoutBtn">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ask Doubt Section -->
+    <div class="container ask-container">
+        <div class="ask-form">
+            <h2 style="margin-bottom: 20px;">Ask a Question</h2>
+            <form id="askForm">
+                <textarea id="question" placeholder="What would you like to ask? Be specific so seniors can provide better answers..." required></textarea>
+                <button type="submit" class="btn btn-primary" style="margin-top: 15px;">Submit Question</button>
+            </form>
+        </div>
+
+        <div class="past-questions">
+            <h2 style="margin-bottom: 20px;">Recent Questions</h2>
+            <div id="questionsList">
+                <!-- Questions will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

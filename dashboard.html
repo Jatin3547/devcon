@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - CampusConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                CampusConnect
+            </a>
+            <div class="auth-buttons">
+                <a href="dashboard.html" class="btn btn-outline">Dashboard</a>
+                <a href="#" class="btn btn-primary" id="logoutBtn">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard Hero -->
+    <section class="dashboard-hero">
+        <div class="container">
+            <h1 id="welcomeMessage">Welcome to CampusConnect!</h1>
+            <p>Your gateway to connecting with seniors, finding mentors, and discovering opportunities.</p>
+        </div>
+    </section>
+
+    <!-- Dashboard Grid -->
+    <div class="container">
+        <div class="dashboard-grid">
+            <a href="ask.html" class="dashboard-card">
+                <div class="dashboard-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <h3>Ask a Doubt</h3>
+                <p>Get your questions answered by experienced seniors</p>
+            </a>
+            <a href="mentors.html" class="dashboard-card">
+                <div class="dashboard-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>View Seniors</h3>
+                <p>Connect with mentors from your college</p>
+            </a>
+            <a href="#" class="dashboard-card">
+                <div class="dashboard-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>Join Communities</h3>
+                <p>Participate in college-specific groups</p>
+            </a>
+            <a href="#" class="dashboard-card">
+                <div class="dashboard-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>Explore Opportunities</h3>
+                <p>Discover internships and job opportunities</p>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
